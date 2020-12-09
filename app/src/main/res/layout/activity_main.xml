@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal.MainActivity"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer_layout">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_app"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorGris"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+        </androidx.appcompat.widget.Toolbar>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <Button
+                android:id="@+id/button_asig"
+                android:onClick="Asignaturas"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="40dp"
+                android:alpha="0.8"
+                android:background="@color/colorRosa"
+                android:drawableEnd="@mipmap/ic_study_foreground"
+                android:scrollbarSize="8dp"
+                android:text="@string/asignaturas"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/button_sitios"
+                android:onClick="Mapas"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="40dp"
+                android:alpha="0.8"
+                android:background="@color/colorVerde"
+                android:drawableEnd="@mipmap/ic_location_foreground"
+                android:text="@string/mapas"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:id="@+id/button_noticias"
+                android:onClick="Noticias"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="40dp"
+                android:alpha="0.8"
+                android:background="@color/colorRosa"
+                android:drawableEnd="@mipmap/ic_newspaper_foreground"
+                android:text="@string/noticias"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <Button
+                android:id="@+id/button_eventos"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="40dp"
+                android:alpha="0.8"
+                android:background="@color/colorVerde"
+                android:drawableEnd="@mipmap/ic_calendario_foreground"
+                android:text="@string/eventos"
+                android:onClick="Eventos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_lateral"
+        app:headerLayout="@layout/nav_header"
+        app:itemIconTint="@color/colorRosa"
+        android:fitsSystemWindows="true">
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz.TotalScoreFisicaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_app"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorGris"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/LiseLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/quiz_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/LiseMeitner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="@string/liseMeitner"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:alpha="0.8"
+                    android:textColor="@color/colorNegro">
+
+                </TextView>
+
+                <LinearLayout
+                    android:id="@+id/LiseContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Lise_Meitner"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:alpha="0.8"
+                        android:fontFamily="monospace"
+                        android:src="@drawable/lise_meitner"
+                        android:textAllCaps="false" />
+
+                    <LinearLayout
+                        android:id="@+id/LiseContent1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/PuntuacionF1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/puntuacion"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/TiempoTestF1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="monospace"
+                            android:text="@string/QuizTime1"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/LouiseLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/quiz_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/LouiseDolan"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="@string/louiseDolan"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:alpha="0.8"
+                    android:textColor="@color/colorNegro">
+
+                </TextView>
+
+                <LinearLayout
+                    android:id="@+id/LouiseContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Louise_Dolan"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_marginStart="10dp"
+                        android:alpha="0.8"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="monospace"
+                        android:src="@drawable/louise_dolan"
+                        android:textAllCaps="false" />
+
+                    <LinearLayout
+                        android:id="@+id/LouiseContent1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/PuntuacionF2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="monospace"
+                            android:textSize="18sp"
+                            android:text="@string/puntuacion"/>
+
+                        <TextView
+                            android:id="@+id/TiempoTestF2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="monospace"
+                            android:textSize="18sp"
+                            android:text="@string/QuizTime2"/>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/RachelLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/quiz_border"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/RachelWebster"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="@string/rachelWebster"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:alpha="0.8"
+                    android:textColor="@color/colorNegro">
+
+                </TextView>
+
+                <LinearLayout
+                    android:id="@+id/RachelContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/Rachel_Webster"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:layout_marginStart="10dp"
+                        android:alpha="0.8"
+                        android:layout_marginBottom="10dp"
+                        android:fontFamily="monospace"
+                        android:src="@drawable/rachel_webster"
+                        android:textAllCaps="false" />
+
+                    <LinearLayout
+                        android:id="@+id/RachelContent1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/PuntuacionF3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="monospace"
+                            android:textSize="18sp"
+                            android:text="@string/puntuacion"/>
+
+                        <TextView
+                            android:id="@+id/TiempoTestF3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="40dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="monospace"
+                            android:textSize="18sp"
+                            android:text="@string/QuizTime3"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/MessageF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:alpha="1"
+                android:background="@color/colorBlanco"
+                android:fontFamily="monospace"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/Message"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="@color/colorNegro"
+                android:textSize="15sp"
+                >
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/Layout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ProgressBar
+                    android:id="@+id/progressF"
+                    android:layout_width="320dp"
+                    android:layout_gravity="center"
+                    android:progressDrawable="@drawable/progress_bar_border"
+                    android:progress="0"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="10dp"
+                    style="@android:style/Widget.ProgressBar.Horizontal" />
+
+                <TextView
+                    android:id="@+id/PercentageF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginStart="10dp"
+                    android:alpha="1"
+                    android:fontFamily="monospace"
+                    android:background="@color/colorBlanco"
+                    android:padding="3dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/Percentage"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorNegro"
+                    android:textStyle="bold"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

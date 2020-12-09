@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_app"
+    tools:context=".Asignaturas.MujeresActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorGris"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <Button
+            android:id="@+id/speak"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:background="@color/colorRosa"
+            android:fontFamily="monospace"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="@string/boton"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold"></Button>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/id_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:background="@color/colorGrisClaro"
+                android:textAlignment="gravity"
+                android:textColor="@android:color/black"
+                android:fontFamily="monospace" />
+            </ScrollView>
+
+</LinearLayout>

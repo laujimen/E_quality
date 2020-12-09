@@ -1,0 +1,346 @@
+<resources>
+    <string name="app_name">E-⚥UALITY</string>
+
+    <string name="asignaturas">ASIGNATURAS</string>
+    <string name="mapas">SITIOS DE INTERES</string>
+    <string name="noticias">NOTICIAS</string>
+    <string name="eventos">EVENTOS</string>
+
+    <string name="fisicas">Físicas</string>
+    <string name="quimicas">Químicas</string>
+    <string name="biologas">Biólogas</string>
+    <string name="igualdad">Igualdad</string>
+
+    <string name="quizFisica">Cuestionario Físicas</string>
+    <string name="quizQuimica">Cuestionario Quimicas</string>
+    <string name="quizBiologia">Cuestionario Biologas</string>
+    <string name="quizIgualdad">Cuestionario Igualdad</string>
+
+    <string name="library">Bibliotecas</string>
+    <string name="universidad">Universidades</string>
+    <string name="favoritos">Sitios Favoritos</string>
+    <string name="female">Ayuda a la Mujer</string>
+
+    <string name="map">Mapa</string>
+    <string name="favoritoGuardado">FAVORITO GUARDADO</string>
+
+    <string name="TotalScoreFisica">Puntuación Total Físicas</string>
+    <string name="TotalScoreBiologa">Puntuación Total Biólogas</string>
+    <string name="TotalScoreQuimica">Puntuación Total Químicas</string>
+    <string name="TotalScoreIgualdad">Puntuación Total Igualdad</string>
+    <string name="Percentage">100%</string>
+
+    <string name="pagWeb">Pagina Web</string>
+
+    <string name="otros">Otros</string>
+
+    <string name="liseMeitner" translatable="false">Lise Meitner</string>
+    <string name="louiseDolan" translatable="false">Louise Dolan</string>
+    <string name="rachelWebster" translatable="false">Rachel Webster</string>
+
+    <string name="dianFossey" translatable="false">Dian Fossey</string>
+    <string name="zehraSayers" translatable="false">Zehra Sayers</string>
+    <string name="mariaEugenia" translatable="false">María Eugenia Farias</string>
+
+    <string name="angelaBelcher" translatable="false">Angela Belcher</string>
+    <string name="marieCurie" translatable="false">Marie Curie</string>
+    <string name="susanSolomon" translatable="false">Susan Solomon</string>
+
+
+    <string name="sojournerTruth" translatable="false">Sojourner Truth</string>
+    <string name="shulamithFirestone" translatable="false">Shulamith Firestone</string>
+    <string name="elizabethCady" translatable="false">Elizabeth Cady Stanton</string>
+
+    <string name="lista">Mujeres &amp; Ciencia</string>
+    <string name="feminitas">Mujeres feministas</string>
+    <string name="listaMujeres">Lista de mujeres</string>
+    <string name="mujeres">Mujeres</string>
+
+    <string name="puntuacion">Puntuación</string>
+    <string name="duracion">Duración</string>
+    <string name="puntTotal">PUNTUACIÓN TOTAL</string>
+    <string name="seg">seg</string>
+
+
+    <string name="alarma">Alarma</string>
+    <string name="texto_alarma1">Hora de la alarma diaria</string>
+    <string name="alarmaActivada">Alarma activada a las</string>
+    <string name="alarmaOn">Alarma Activada</string>
+    <string name="alarmaDescactivada">Alarma desactivada</string>
+    <string name="hora_seleccion" translatable="false">hh:mm</string>
+
+    <string name="activarAlarma">ACTIVAR ALARMA</string>
+    <string name="desactivarAlarma">DESACTIVAR ALARMA</string>
+
+    <string name="option_about" >Acerca de</string>
+
+    <string name="question1">Pregunta 1</string>
+    <string name="question2">Pregunta 2</string>
+    <string name="question3">Pregunta 3</string>
+
+    <string name="QuizTime1">Tiempo Test 1</string>
+    <string name="QuizTime2">Tiempo Test 2</string>
+    <string name="QuizTime3">Tiempo Test 3</string>
+    <string name="Message">MENSAJE</string>
+
+    <string name="check">Corregir</string>
+    <string name="correct">Muy bien!</string>
+    <string name="incorrect">Incorrecto&#8230;</string>
+
+    <string name="perfecto">¡PERFECTO! :)</string>
+    <string name="mal">¡NO HAS DADO UNA! :(</string>
+    <string name="correctas">Correctas</string>
+    <string name="incorrectas">Incorrectas</string>
+
+    <string-array name="type_array">
+        <item>Fisica1</item>
+        <item>Fisica2</item>
+        <item>Fisica3</item>
+        <item>Quimica1</item>
+        <item>Quimica2</item>
+        <item>Quimica3</item>
+        <item>Biologia1</item>
+        <item>Biologia2</item>
+        <item>Biologia3</item>
+        <item>Igualdad1</item>
+        <item>Igualdad2</item>
+        <item>Igualdad3</item>
+    </string-array>
+
+    <string name="score1" translatable="false">%</string>
+    <string name="score2" translatable="false">/3</string>
+
+    <string name="tiempo">Tiempo</string>
+    <string name="calendario">Calendario</string>
+    <string name="diario">Tiempo diario</string>
+
+    <string name="listaEventos">Lista de eventos</string>
+    <string name="crearEventos">Crear eventos</string>
+    <string name="evento">Ingrese el nombre del evento</string>
+    <string name="ubicacion">Ingrese la ubicación</string>
+    <string name="desde">Desde</string>
+    <string name="hasta">Hasta</string>
+    <string name="descripcion">Descripción</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <!-- PREGUNTAS -->
+    <string name="anio">¿En qué año nació?</string>
+    <string name="setentaOcho" translatable="false">1878</string>
+    <string name="noventa" translatable="false">1990</string>
+    <string name="dosUno" translatable="false">2001</string>
+
+    <string name="asignatura">¿Qué asignatura impartía en la Universidad?</string>
+    <string name="nuclear">Física nuclear experimental</string>
+    <string name="cuantica">Física cuántica</string>
+    <string name="matematicas">Matemáticas experimentales</string>
+
+    <string name="descubrimiento">¿En qué descubrimiento contribuyó?</string>
+    <string name="bomba">En el desarrollo de la bomba atómica</string>
+    <string name="nucleares">En el desarrollo de armas nucleares</string>
+    <string name="elemento">En el descubrimiento de un elemento</string>
+
+    <string name="cincuenta" translatable="false">1950</string>
+    <string name="treintayseis" translatable="false">1236</string>
+    <string name="sesentaycinco" translatable="false">1965</string>
+
+    <string name="estudio">¿Qué estudio ha hecho avanzar?</string>
+    <string name="particulas">Física de partículas elementales</string>
+    <string name="gravedad">La teoría de la gravedad</string>
+    <string name="fisicaCuantica">Estudios sobre física cuántica</string>
+
+    <string name="clases">¿Sobre que campo imparte clases?</string>
+    <string name="mecanica">Mecánica cuántica</string>
+    <string name="cuerdas">Teoría de cuerdas</string>
+    <string name="teorica">Física teórica</string>
+
+    <string name="cincuentaUno" translatable="false">1951</string>
+    <string name="nueve" translatable="false">2009</string>
+    <string name="cincuentaSeis" translatable="false">1856</string>
+
+    <string name="investigacion">"¿En qué centra su investigación?"</string>
+    <string name="agujerosNegros">Agujeros negros</string>
+    <string name="estrellas">Estrellas</string>
+    <string name="bigbang" translatable="false">Big Bang</string>
+
+    <string name="objetivo">¿Cuál es el objetivo final de Webster?</string>
+    <string name="identificar">Identificar las primeras fuentes del universo</string>
+    <string name="explicar">Explicar el universo</string>
+    <string name="encontrar">Encontrar vida en otro planeta</string>>
+
+    <string name="queEstudio">¿Qué estudió?</string>
+    <string name="ingenieriaBilogica">Ciencia de los materiales e ingeniería biológica</string>
+    <string name="ingenieriaQuimica">Ingeniería química</string>
+    <string name="ingenieriaIndustriales">Ingeniería en tecnologías industriales</string>
+
+    <string name="demostro">¿Qué demostró junto a su equipo?</string>
+    <string name="virus">El uso de virus para construir una batería</string>
+
+    <string name="tipoVirus">Desarrolló un virus llamado:</string>
+    <string name="M13">Bacteriófago M13</string>
+    <string name="A14">Bacteriófago A14</string>
+    <string name="N15">Bacteriófago N15</string>
+
+    <string name="sesentaSiete" translatable="false">1867</string>
+    <string name="sesentaNueve" translatable="false">1869</string>
+    <string name="ochentaNueve" translatable="false">1789</string>
+
+    <string name="elementoDesc">¿Qué elemento descubrió?</string>7
+    <string name="radio">Radio</string>
+    <string name="estonio">Estroncio</string>
+    <string name="niquel">Niquel</string>
+
+    <string name="premioNobel">¿Qué premio Nobel consiguió en solitario?</string>
+    <string name="quimica">Química</string>
+    <string name="fisica">Física</string>
+    <string name="mates">Matemáticas</string>
+
+    <string name="novecientos56" translatable="false">1956</string>
+
+    <string name="libro">¿Que libro ha publicado?</string>
+    <string name="marcha">La Marcha más fría</string>
+    <string name="ozono">En búsqueda del agujero de ozono</string>
+    <string name="atmosfera">La Atmósfera Media</string>
+
+    <string name="glaciar">¿Cómo se llama su glaciar?</string>
+    <string name="solomon">Glaciar Solomon</string>
+    <string name="herodes">Glaciar Herodes</string>
+    <string name="dios">Glaciar de Dios</string>
+
+    <string name="treintaDos" translatable="false">1932</string>
+    <string name="ochocientos32" translatable="false">1832</string>
+
+
+    <string name="investigacionCampo">¿Cuál es su campo de investigación?</string>
+    <string name="zoologia">Zoología</string>
+    <string name="bio">Bioquímica</string>
+    <string name="genetica">Genética</string>
+
+    <string name="carrera">¿En qué se centró toda su carrera?</string>
+    <string name="gorilas">En el estudio de los gorilas en su hábitat natural</string>
+    <string name="leones">En el estudio de los leones en su hábitat natural</string>
+    <string name="elefantes">En el estudio de los elefantes en su hábitat natural</string>
+
+    <string name="sesentaOcho" translatable="false">1968</string>
+    <string name="sesentaTres" translatable="false">1863</string>
+    <string name="noventaOcho" translatable="false">1998</string>
+
+
+    <string name="especializacion">¿Cuál es su especialización?</string>
+    <string name="micro">La microbiología</string>
+    <string name="bioquimica">La bioquímica</string>
+    <string name="biotecnologia">La biotecnología</string>
+
+    <string name="premio">¿Qué premio ha ganado?</string>
+    <string name="konex">Premio Konex</string>
+    <string name="nobel">Premio Nobel</string>
+    <string name="goya">Premio Goya</string>
+
+    <string name="noventaTres" translatable="false">1953</string>
+    <string name="cincuentaTres" translatable="false">1553</string>
+
+    <string name="estructural">La biología estructural</string>
+
+    <string name="primera">Fue la primera mujer en trabajar para..</string>
+    <string name="europeo">El laboratorio Europeo de biología molecular</string>
+    <string name="turco">El laboratorio Turco de biología</string>
+    <string name="americano">El laboratorio Americano de microbiología</string>
+
+    <string name="cuarentaCinco" translatable="false">1945</string>
+
+    <string name="feminismo">¿A qué rama del feminismo pertenece?</string>
+    <string name="Fradical">Feminismo radical</string>
+    <string name="Fliberal">Feminismo liberal</string>
+    <string name="Fabolicionista">Feminismo abolicionista</string>
+
+    <string name="escribio">¿Qué libro escribió?</string>
+    <string name="sexo">La dialectica del sexo</string>
+    <string name="torpes">Feminismo para torpes</string>
+    <string name="habitacion">Una habitación propia</string>
+
+    <string name="noventaSiete" translatable="false">1797</string>
+
+    <string name="fue">Fue&#8230;</string>
+    <string name="abolicionista">Abolicionista</string>
+    <string name="socialista">Socialista</string>
+    <string name="marxista">Marxista</string>
+
+    <string name="religion">¿A qué religión se convirtió?</string>
+    <string name="cristiana">Cristiana</string>
+    <string name="judia">Judia</string>
+    <string name="musulmana">Musulmana</string>
+
+    <string name="quince" translatable="false">1815</string>
+
+    <string name="moviento">Organizo el primer movimiento..</string>
+    <string name="sufragio">por el sufragio femenino</string>
+    <string name="liberacion">la libelación femenina</string>
+    <string name="representacion">por la representación femenina</string>
+
+    <string name="biblia">La Biblia de la mujer</string>
+    <string name="mujer">El libro de la mujer</string>
+    <string name="mas">6 años y más</string>
+
+    <string name="mikel" translatable="false">MIKEL CRUZ</string>
+    <string name="laura" translatable="false">LAURA JIMÉNEZ</string>
+    <string name="luz" translatable="false">LUZ GÓMEZ</string>
+
+    <string name="bd">Experto en SQLite</string>
+    <string name="api">Experta en APIs</string>
+    <string name="mapss">Experta en mapas</string>
+
+    <string name="descripcionMAIK" >Ingeniero de Telecomunicaciones especializado en imagen y sonido.</string>
+    <string name="descripcionLAURA">Ingeniera de Telecomunicaciones especializada en imagen y sonido.</string>
+    <string name="descripcionLUZ" >Ingeniera de Telecomunicaciones especializada en imagen y sonido.</string>
+
+    <string name="liseMeitnerURL">"https://es.wikipedia.org/w/api.php?action=query&amp;titles=Lise%20Meitner&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts"</string>
+    <string name="loiseDolanURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Louise%20Dolan&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="rachelWebsterURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Rachel%20Webster&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="dianFosseyURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Dian%20Fossey&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="mariaEugeniaURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Mar%C3%ADa%20Eugenia%20Far%C3%ADas&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="zehraSayersURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Zehra%20Sayers&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="angelaBelcherURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Angela%20Belcher&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="marieCurieURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Marie%20Curie&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="susanSolomonURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Susan%20Solomon&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="sojournerTruthURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Sojourner%20Truth&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="shumalamithFirestoneURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Shulamith%20Firestone&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="elizabethCadyURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Elizabeth%20Cady%20Stanton&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="rachalWebsterURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Rachel%20Webster&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+
+    <string name="idioma">es</string>
+    <string name="nombres">Científicas: </string>
+
+    <string name="caso_0">¡ESTA BARRA NO VA A AVANZAR SOLA!</string>
+    <string name="caso_1">PUEDES HACERLO MEJOR ¡A POR ELLO!</string>
+    <string name="caso_2">VEO QUE HAS ESTUDIADO ¡ESTÁS MEJORANDO!</string>
+    <string name="caso_3">¡MUY BIEN! NO ESPERABA MENOS DE TI :)</string>
+    <string name="caso_4">¡EXCELENTE! UN BRINDIS A TU SALUD</string>
+
+
+    <string name="dia">Día</string>
+    <string name="descripcionDiaria"><b>Descripción diaria</b></string>
+    <string name="sensacion">Sensación de calor</string>
+    <string name="temp">Temperatura</string>
+    <string name="tempmin">Temperatura mínima</string>
+    <string name="tempmax">Temperatura máxima</string>
+
+    <string name="des">DESARROLLADORES</string>
+
+
+    <!-- KEYS -->
+    <string name="google_maps_key" translatable="false">PUT YOUR API KEY HERE</string>
+    <string name="add">Agregar evento</string>
+    <string name="view">Ver evento</string>
+    <string name="cancel">Cancelar</string>
+    
+    <string name="selecciona">Selecciona una opción</string>
+
+    <string name="delete">Eliminar evento</string>
+    <string name="eventDelete">Evento eliminado</string>
+
+
+    <string name="boton">Presiona para escuhar</string>
+    <string name="bienvenido">Bienvenida a la información de</string>
+
+
+</resources>

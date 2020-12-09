@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--PLAYLIST DE TODOS LOS VIDEOS: https://www.youtube.com/playlist?list=PLO4xvhqnWKL0R5ZO7L831NxKNet_aOSfz-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eventos.ViewEventActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorGris"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+        </androidx.appcompat.widget.Toolbar>
+
+        <ListView
+            android:id="@+id/listaEventos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="16dp"
+            android:padding="10sp">
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

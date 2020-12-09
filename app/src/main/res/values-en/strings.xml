@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E-⚥UALITY</string>
+    <string name="eventos">EVENTS</string>
+    <string name="asignaturas">SUBJECTS</string>
+    <string name="mapas">PLACES OF INTEREST</string>
+    <string name="noticias">NEWS</string>
+    <string name="fisicas">" Physicists"</string>
+    <string name="quimicas">Chemists</string>
+    <string name="biologas">Biologists</string>
+    <string name="igualdad">Equality</string>
+    <string name="quizFisica">Quiz physicist</string>
+    <string name="quizQuimica">Quiz chemist</string>
+    <string name="quizBiologia">Quiz biologist</string>
+    <string name="quizIgualdad">Quiz equality</string>
+    <string name="library">Libraries</string>
+    <string name="universidad">Universities</string>
+    <string name="favoritos">Favorites</string>
+    <string name="female">Help</string>
+    <string name="map">Map</string>
+    <string name="favoritoGuardado">FAVOURITE SAVED</string>
+    <string name="TotalScoreFisica">Total score physicists</string>
+    <string name="TotalScoreBiologa">Total score biologists</string>
+    <string name="TotalScoreQuimica">Total score chemists</string>
+    <string name="TotalScoreIgualdad">Total score equality</string>
+    <string name="Percentage">100%</string>
+    <string name="pagWeb">Web side</string>
+    <string name="otros">Others</string>
+    <string name="lista">Women &amp; science</string>
+    <string name="feminitas">Feminists women</string>
+    <string name="listaMujeres">Women list</string>
+    <string name="mujeres">Women</string>
+    <string name="puntuacion">Score</string>
+    <string name="puntTotal">TOTAL SCORE</string>
+    <string name="alarma">Alarm</string>
+    <string name="texto_alarma1">Set daily alarm time</string>
+    <string name="question1">Question 1</string>
+    <string name="question2">Question 2</string>
+    <string name="question3">Question 3</string>
+    <string name="QuizTime1">Test time 1</string>
+    <string name="QuizTime2">Test time 2</string>
+    <string name="QuizTime3">Test time 3</string>
+    <string name="Message">MESSAGE</string>
+    <string name="check">To correct</string>
+    <string name="correct">Very well!</string>
+    <string name="incorrect">Incorrect&#8230;</string>
+    <string name="tiempo">Weather</string>
+    <string name="calendario">Calendar</string>
+    <string name="diario">Daily weather</string>
+    <string name="listaEventos">Events list</string>
+    <string name="crearEventos">Create events</string>
+    <string name="evento">Enter the name of the event</string>
+    <string name="ubicacion">Enter location</string>
+    <string name="desde">Since</string>
+    <string name="hasta">Until</string>
+    <string name="descripcion">Description</string>
+    <string name="guardar">Save</string>
+    <string name="cancelar">Cancel</string>
+    <string name="bd">SQLite expert</string>
+    <string name="api">APIs expert</string>
+    <string name="mapss">Maps expert</string>
+    <string name="anio">When was she born?</string>
+    <string name="nuclear">Experimental nuclear physics</string>
+    <string name="cuantica">Quantum physics</string>
+    <string name="matematicas" >Experimental mathematics</string>
+    <string name="bomba">In the development of the atomic bomb</string>
+    <string name="nucleares">" In the development of nuclear weapons"</string>
+    <string name="elemento" >" In the discovery of an element"</string>
+    <string name="particulas">" Elementary particle physics"</string>
+    <string name="gravedad">" The theory of gravity"</string>
+    <string name="fisicaCuantica">" Quantum Physics Studies"</string>
+    <string name="mecanica">" Quantum mechanics"</string>
+    <string name="cuerdas">String theory</string>
+    <string name="teorica">Theoretical physics</string>
+    <string name="estrellas">" Stars"</string>
+    <string name="agujerosNegros">Black holes</string>
+    <string name="explicar">Explain the universe</string>
+    <string name="encontrar">Finding life on another planet</string>
+    <string name="ingenieriaBilogica">Materials science and biological engineering</string>
+    <string name="ingenieriaQuimica">Chemical engineering</string>
+    <string name="ingenieriaIndustriales">Industrial technologies engineering</string>
+    <string name="M13">Bacteriophage M13</string>
+    <string name="A14">Bacteriophage A14</string>
+    <string name="N15">Bacteriophage N15</string>
+    <string name="queEstudio">What did she study?</string>
+    <string name="radio">Radium</string>
+    <string name="estonio">Stronium</string>
+    <string name="niquel">Nickel</string>
+    <string name="quimica">Chemistry</string>
+    <string name="fisica">Physics</string>
+    <string name="mates">Mathematics</string>
+    <string name="solomon">Solomon Glacier</string>
+    <string name="herodes">Herodes Glacier</string>
+    <string name="dios">God\'s Glacier</string>
+    <string name="zoologia">Zoology</string>
+    <string name="bio">Biochemistry</string>
+    <string name="genetica">Genetics</string>
+    <string name="micro">Microbiology</string>
+    <string name="bioquimica">Biochemistry</string>
+    <string name="biotecnologia">Biotechnology</string>
+    <string name="konex">Konex Prize</string>
+    <string name="nobel">Nobel Prize</string>
+    <string name="goya">Goya Prize</string>
+    <string name="estructural">Structural biology</string>
+    <string name="primera">She was the first woman to work for ..</string>
+    <string name="europeo">The European Laboratory for Molecular Biology</string>
+    <string name="turco">The Turkish Biology Laboratory</string>
+    <string name="americano">The American Microbiology Laboratory</string>
+    <string name="feminismo">What branch of feminism does she belong to?</string>
+    <string name="Fradical">Radical feminism</string>
+    <string name="Fliberal">Liberal feminism</string>
+    <string name="Fabolicionista">Abolitionist feminism</string>
+    <string name="escribio">What book did she write?</string>
+    <string name="sexo">The dialectic of sex</string>
+    <string name="torpes">Clumsy feminism</string>
+    <string name="habitacion">Own room</string>
+    <string name="fue">She was&#8230; </string>
+    <string name="abolicionista">Abolitionist</string>
+    <string name="socialista">Socialist</string>
+    <string name="marxista">Marxist</string>
+    <string name="cristiana">Christian</string>
+    <string name="judia">Jew</string>
+    <string name="musulmana">Muslim</string>
+    <string name="moviento">" She organized the first movement&#8230;"</string>
+    <string name="sufragio">for female suffrage</string>
+    <string name="liberacion">for female liberation</string>
+    <string name="representacion">for the female representation</string>
+    <string name="biblia">Woman\'s Bible</string>
+    <string name="mujer">Woman\'s book</string>
+    <string name="mas">6 years and more</string>
+    <string name="religion">What religion did she convert to?</string>
+    <string name="especializacion">What is her specialization?</string>
+    <string name="carrera">What did she focus her entire career on?</string>
+    <string name="gorilas">In the study of gorillas in their natural habitat</string>
+    <string name="leones">In the study of lions in their natural habitat</string>
+    <string name="elefantes">In the study of elephants in their natural habitat</string>
+    <string name="descubrimiento">What discovery did she contribute to?</string>
+    <string name="clases" >What does she teach about?</string>
+    <string name="investigacion">What was she investigating?</string>
+    <string name="identificar">Identify the first sources of the universe</string>
+    <string name="tipoVirus">Developed a virus called</string>
+    <string name="elementoDesc">What element did she discover?</string>
+    <string name="marcha">The coldest march</string>
+    <string name="ozono">In search of the ozone hole</string>
+    <string name="atmosfera">"The Middle Atmosphere "</string>
+    <string name="libro">" What book has she published?"</string>
+    <string name="premioNobel">What Nobel Prize did she get alone?</string>
+    <string name="glaciar">"What is the name of her glacier? "</string>
+    <string name="objetivo">"What is Webster's goal? "</string>
+    <string name="virus">Using viruses to build a battery</string>
+    <string name="asignatura">What subject taught at the University?</string>
+    <string name="estudio">Which of the following has she helped to develop?</string>
+    <string name="premio">What prize did she won?</string>
+    <string name="liseMeitnerURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Lise%20Meitner&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="investigacionCampo">"What is her research field? "</string>
+    <string name="demostro">What did she han her teamwork discover?</string>
+    <string name="loiseDolanURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Louise%20Dolan&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="rachalWebsterURL">https://es.wikipedia.org/w/api.php?action=query&amp;titles=Rachel%20Webster&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="dianFosseyURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Dian%20Fossey&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="mariaEugeniaURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Mar%C3%ADa%20Eugenia%20Far%C3%ADas&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="zehraSayersURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Zehra%20Sayers&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="angelaBelcherURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Angela%20Belcher&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="marieCurieURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Marie%20Curie&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="susanSolomonURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Susan%20Solomon&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="sojournerTruthURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Sojourner%20Truth&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="shumalamithFirestoneURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Shulamith%20Firestone&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="elizabethCadyURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Elizabeth%20Cady%20Stanton&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="rachelWebsterURL">https://en.wikipedia.org/w/api.php?action=query&amp;titles=Rachel%20Webster&amp;prop=revisions&amp;rvprop=content&amp;format=json&amp;prop=extracts</string>
+    <string name="idioma">en</string>
+    <string name="nombres">Scientifics: </string>
+
+    <string name="activarAlarma"> ALARM ON </string>
+    <string name="desactivarAlarma">ALARM OFF</string>
+    <string name="option_about">About</string>
+    <string name="seg">sec</string>
+    <string name="duracion">Time</string>
+    <string name="caso_0">LET\'S DO THIS!</string>
+    <string name="caso_1">YOU CAN DO IT BETTER. GO FOR IT!!</string>
+    <string name="caso_2">YOU HAVE STUDIED. YOU ARE IMPROVING!</string>
+    <string name="caso_3">VERY WELL! THAT IS WHAT I WAS EXPECTING :)</string>
+    <string name="caso_4">EXCELENT! TOAST TO YOUR HEALTH </string>
+
+    <string name="alarmaActivada">Alarm activated at</string>
+    <string name="alarmaOn">Alarm ON</string>
+    <string name="alarmaDescactivada">Alarm OFF</string>
+    <string name="perfecto">PERFECT!</string>
+    <string name="mal">EVERYTHING WRONG</string>
+    <string name="correctas">Corrects</string>
+    <string name="incorrectas">Incorrects</string>
+    <string name="dia">Day</string>
+    <string name="temp">Temperature</string>
+    <string name="tempmin">Minimum Temperature</string>
+    <string name="tempmax">Maximum Temperature</string>
+
+    <string name="descripcionDiaria">Daily description</string>
+    <string name="sensacion">Feels like</string>
+    <string name="des">DEVELOPERS</string>
+
+    <string name="add">Set event</string>
+    <string name="view">Show events</string>
+    <string name="cancel">Cancel</string>
+    <string name="selecciona">Select an option</string>
+    <string name="delete">Delete event</string>
+    <string name="eventDelete">Event delete</string>
+
+    <string name="boton">Tap to listen</string>
+    <string name="bienvenido">Welcome to the information of</string>
+
+    <string name="descripcionMAIK" >Telecommunications Engineer with specialization in Sound and Image.</string>
+    <string name="descripcionLAURA">Telecommunications Engineer with specialization in Sound and Image.</string>
+    <string name="descripcionLUZ" >Telecommunications Engineer with specialization in Sound and Image.</string>
+
+
+
+</resources>

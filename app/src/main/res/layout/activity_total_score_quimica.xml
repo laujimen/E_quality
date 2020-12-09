@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz.TotalScoreQuimicaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_app"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorGris"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+        </androidx.appcompat.widget.Toolbar>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/AngelaLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/quiz_border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/AngelaBelcher"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/angelaBelcher"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:alpha="0.8"
+                android:textColor="@color/colorNegro">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/AngelaContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Angela_Belcher"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:alpha="0.8"
+                    android:fontFamily="monospace"
+                    android:src="@drawable/angela_belcher"
+                    android:textAllCaps="false" />
+
+                <LinearLayout
+                    android:id="@+id/AngelaContent1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/PuntuacionQ1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="monospace"
+                        android:text="@string/puntuacion"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/TiempoTestQ1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="monospace"
+                        android:text="@string/QuizTime1"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/MarieLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/quiz_border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/MarieCurie"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/marieCurie"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:alpha="0.8"
+                android:textColor="@color/colorNegro">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/MarieContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Marie_Curie"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginStart="10dp"
+                    android:alpha="0.8"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="monospace"
+                    android:src="@drawable/marie_curie"
+                    android:textAllCaps="false" />
+
+                <LinearLayout
+                    android:id="@+id/MarieContent1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/PuntuacionQ2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="monospace"
+                        android:textSize="18sp"
+                        android:text="@string/puntuacion"/>
+
+                    <TextView
+                        android:id="@+id/TiempoTestQ2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="monospace"
+                        android:textSize="18sp"
+                        android:text="@string/QuizTime2"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/SusanLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/quiz_border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/SusanSolomon"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="@string/susanSolomon"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:alpha="0.8"
+                android:textColor="@color/colorNegro">
+
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/SusanContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/Susan_Solomon"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="10dp"
+                    android:alpha="0.8"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="monospace"
+                    android:src="@drawable/susan_solomon"
+                    android:textAllCaps="false" />
+
+                <LinearLayout
+                    android:id="@+id/SusanContent1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/PuntuacionQ3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="monospace"
+                        android:textSize="18sp"
+                        android:text="@string/puntuacion"/>
+
+                    <TextView
+                        android:id="@+id/TiempoTestQ3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="monospace"
+                        android:textSize="18sp"
+                        android:text="@string/QuizTime3"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/MessageQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            android:alpha="1"
+            android:background="@color/colorBlanco"
+            android:fontFamily="monospace"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/Message"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@color/colorNegro"
+            android:textSize="15sp"
+            >
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/Layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressQ"
+                android:layout_width="320dp"
+                android:layout_gravity="center"
+                android:progressDrawable="@drawable/progress_bar_border"
+                android:progress="0"
+                android:layout_height="30dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="10dp"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                />
+
+            <TextView
+                android:id="@+id/PercentageQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="10dp"
+                android:alpha="1"
+                android:fontFamily="monospace"
+                android:background="@color/colorBlanco"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                android:gravity="center"
+                android:text="@string/Percentage"
+                android:textAllCaps="false"
+                android:textColor="@color/colorNegro"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

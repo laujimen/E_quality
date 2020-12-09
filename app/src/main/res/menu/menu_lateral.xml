@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/opciones_principales">
+        <item
+            android:id="@+id/opcion_asignaturas"
+            android:icon="@mipmap/ic_study_foreground"
+            android:title="@string/asignaturas">
+
+        </item>
+        <item
+            android:id="@+id/opcion_mapas"
+            android:icon="@mipmap/ic_location_foreground"
+            android:title="@string/mapas">
+        </item>
+        <item
+            android:id="@+id/opcion_noticias"
+            android:icon="@mipmap/ic_newspaper_foreground"
+            android:title="@string/noticias">
+        </item>
+        <item
+            android:id="@+id/opcion_eventos"
+            android:icon="@mipmap/ic_calendar_foreground"
+            android:title="@string/eventos">
+        </item>
+    </group>
+
+    <group android:id="@+id/otros">
+
+        <item
+            android:id="@+id/opcion_alarma"
+            android:icon="@drawable/ic_reloj_foreground"
+            android:title="@string/alarma">
+        </item>
+
+        <item
+            android:id="@+id/option_about"
+            android:icon="@drawable/ic_info_foreground"
+            android:title="@string/option_about">
+
+        </item>
+
+    </group>
+
+
+
+</menu>

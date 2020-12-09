@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--https://happycodetricks.wordpress.com/2013/09/23/codigo-colocar-un-borde-a-un-linearlayout-en-android/-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#4B4B4B" />
+        </shape>
+    </item>
+    <item android:left="3dp" android:right="3dp" android:top="3dp" android:bottom="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#F9CFC1"/>
+        </shape>
+    </item>
+</layer-list>

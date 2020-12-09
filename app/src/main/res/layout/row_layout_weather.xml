@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/border"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/image"
+        android:layout_marginLeft="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/calen"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
+            android:background="@mipmap/ic_dia_foreground" />
+
+        <ImageView
+            android:id="@+id/descrip"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:src="@mipmap/ic_weather_foreground" />
+
+        <ImageView
+            android:id="@+id/tem"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:src="@mipmap/ic_temp_foreground" />
+
+        <ImageView
+            android:id="@+id/sens"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:src="@mipmap/ic_smile_foreground" />
+
+        <ImageView
+            android:id="@+id/temin"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:src="@mipmap/ic_temin_foreground" />
+
+        <ImageView
+            android:id="@+id/temax"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:src="@mipmap/ic_temax_foreground" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/listText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:textColor="@color/colorNegro"
+        android:ellipsize="end"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
+
+

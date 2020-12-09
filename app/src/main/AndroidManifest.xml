@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.e_quality">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.cm2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.gms.permssion.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <receiver android:name=".Principal.MyAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/my_app_widget_info" />
+        </receiver>
+
+        <meta-data android:name="com.google.android.gms.version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <receiver
+            android:name=".Alarmas.MyBroadcastReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Principal.SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Principal.MainActivity" />
+        <activity
+            android:name=".Asignaturas.AsignaturasActivity"
+            android:label="@string/asignaturas"
+            android:parentActivityName=".Principal.MainActivity" />
+        <activity
+            android:name=".Mapas.MapsActivity"
+            android:label="@string/mapas"
+            android:parentActivityName=".Principal.MainActivity" />
+        <activity
+            android:name=".Eventos.EventoActivity"
+            android:label="@string/eventos"
+            android:parentActivityName=".Principal.MainActivity" />
+        <activity
+            android:name=".Noticias.NoticiasActivity"
+            android:label="@string/noticias"
+            android:parentActivityName=".Principal.MainActivity" />
+        <activity
+            android:name=".Noticias.Web"
+            android:label="@string/pagWeb"
+            android:parentActivityName=".Noticias.NoticiasActivity" />
+        <activity
+            android:name=".Alarmas.AlarmaActivity"
+            android:label="@string/alarma"
+            android:parentActivityName=".Principal.MainActivity" />
+        <activity
+            android:name=".Principal.AboutActivity"
+            android:label="@string/option_about"
+            android:parentActivityName=".Principal.MainActivity" />
+        <activity
+            android:name=".Asignaturas.FisicaActivity"
+            android:label="@string/fisicas"
+            android:parentActivityName=".Asignaturas.AsignaturasActivity" />
+        <activity
+            android:name=".Asignaturas.BiologaActivity"
+            android:label="@string/biologas"
+            android:parentActivityName=".Asignaturas.AsignaturasActivity" />
+        <activity
+            android:name=".Asignaturas.QuimicaActivity"
+            android:label="@string/quimicas"
+            android:parentActivityName=".Asignaturas.AsignaturasActivity" />
+        <activity
+            android:name=".Asignaturas.IgualdadActivity"
+            android:label="@string/igualdad"
+            android:parentActivityName=".Asignaturas.AsignaturasActivity" />
+        <activity
+            android:name=".Eventos.CalendarActivity"
+            android:label="@string/calendario"
+            android:parentActivityName=".Eventos.EventoActivity" />
+        <activity
+            android:name=".Asignaturas.MujeresActivity"
+            android:label="@string/mujeres"
+            android:parentActivityName=".Asignaturas.AsignaturasActivity" />
+        <activity
+            android:name=".Asignaturas.Wikipedia"
+            android:label="@string/listaMujeres"
+            android:parentActivityName=".Asignaturas.AsignaturasActivity" />
+        <activity
+            android:name=".Quiz.QuizFisica"
+            android:label="@string/quizFisica"
+            android:parentActivityName=".Asignaturas.FisicaActivity" />
+        <activity
+            android:name=".Quiz.QuizQuimica"
+            android:label="@string/quizQuimica"
+            android:parentActivityName=".Asignaturas.QuimicaActivity" />
+        <activity
+            android:name=".Quiz.QuizBiologia"
+            android:label="@string/quizBiologia"
+            android:parentActivityName=".Asignaturas.BiologaActivity" />
+        <activity
+            android:name=".Quiz.QuizIgualdad"
+            android:label="@string/quizIgualdad"
+            android:parentActivityName=".Asignaturas.IgualdadActivity" />
+        <activity
+            android:name=".Mapas.MapasActivity"
+            android:label="@string/map"
+            android:parentActivityName=".Mapas.MapsActivity" />
+        <activity
+            android:name=".Mapas.FavoritosActivity"
+            android:label="@string/favoritos"
+            android:parentActivityName=".Mapas.MapasActivity" />
+        <activity
+            android:name=".Eventos.AddEventActivity"
+            android:label="@string/crearEventos"
+            android:parentActivityName=".Eventos.CalendarActivity" />
+        <activity
+            android:name=".Eventos.ViewEventActivity"
+            android:label="@string/listaEventos"
+            android:parentActivityName=".Eventos.CalendarActivity" />
+        <activity
+            android:name=".Eventos.WeatherActivity"
+            android:label="@string/diario"
+            android:parentActivityName=".Eventos.EventoActivity" />
+        <activity
+            android:name=".Quiz.TotalScoreFisicaActivity"
+            android:label="@string/TotalScoreFisica"
+            android:parentActivityName=".Asignaturas.FisicaActivity" />
+        <activity
+            android:name=".Quiz.TotalScoreIgualdadActivity"
+            android:label="@string/TotalScoreIgualdad"
+            android:parentActivityName=".Asignaturas.IgualdadActivity" />
+        <activity
+            android:name=".Quiz.TotalScoreBiologaActivity"
+            android:label="@string/TotalScoreBiologa"
+            android:parentActivityName=".Asignaturas.BiologaActivity" />
+        <activity
+            android:name=".Quiz.TotalScoreQuimicaActivity"
+            android:label="@string/TotalScoreQuimica"
+            android:parentActivityName=".Asignaturas.QuimicaActivity" />
+
+    </application>
+
+</manifest>

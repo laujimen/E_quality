@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alarmas.AlarmaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_app"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorGris"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="295dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:background="@color/colorHueso"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_alarma1"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:textSize="22sp"
+                android:textColor="@color/colorNegro"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/id_seleccion_hora"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hora_seleccion"
+                    android:textAlignment="center"
+                    android:ems="8"
+                    android:inputType="time">
+
+                </EditText>
+
+                <ImageButton
+                    android:id="@+id/id_boton_hora"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginStart="10dp"
+                    android:onClick="setTime"
+                    android:alpha="0.8"
+                    android:src="@drawable/ic_reloj_foreground"
+                    android:background="@color/colorRosa"
+                    android:fontFamily="monospace"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/id_boton_activaAlarma"
+                android:onClick="activarAlarma"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="@string/activarAlarma"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <Button
+                android:id="@+id/id_boton_cancelarAlarma"
+                android:onClick="cancelarAlarma"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="@string/desactivarAlarma"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/text_alarma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="center"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

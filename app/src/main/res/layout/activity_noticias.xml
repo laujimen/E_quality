@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Noticias.NoticiasActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_app"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorGris"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/news_hipertextual"
+                    android:onClick="Web"
+                    android:src="@mipmap/ic_hipertextual_foreground"
+                    android:background="@color/colorNegro"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+                <ImageButton
+                    android:id="@+id/news_xataka"
+                    android:onClick="Web"
+                    android:layout_marginTop="30dp"
+                    android:src="@mipmap/ic_xataka_foreground"
+                    android:background="@color/colorAzulOscuro"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/news_quo"
+                    android:onClick="Web"
+                    android:src="@mipmap/ic_quo_foreground"
+                    android:background="@color/colorNegro"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+                <ImageButton
+                    android:id="@+id/news_pikara"
+                    android:onClick="Web"
+                    android:layout_marginTop="30dp"
+                    android:src="@mipmap/ic_pikara_foreground"
+                    android:background="@color/colorNegro"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

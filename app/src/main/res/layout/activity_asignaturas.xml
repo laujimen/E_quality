@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Asignaturas.AsignaturasActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_app"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorGris"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <LinearLayout
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/asignatura1"
+                    android:background="@color/colorRosa"
+                    android:onClick="Fisicas"
+                    android:alpha="0.8"
+                    android:drawableTop="@mipmap/ic_fisica_foreground"
+                    android:text="@string/fisicas"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"/>
+                <Button
+                    android:id="@+id/asignatura2"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorVerde"
+                    android:onClick="Quimicas"
+                    android:alpha="0.8"
+                    android:drawableTop="@mipmap/ic_quimica_foreground"
+                    android:text="@string/quimicas"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/asignatura4"
+                    android:background="@color/colorVerde"
+                    android:onClick="Biologas"
+                    android:alpha="0.8"
+                    android:drawableTop="@mipmap/ic_biologia_foreground"
+                    android:text="@string/biologas"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"/>
+                <Button
+                    android:id="@+id/asignatura5"
+                    android:layout_marginTop="30dp"
+                    android:onClick="Igualdad"
+                    android:alpha="0.8"
+                    android:background="@color/colorRosa"
+                    android:drawableTop="@mipmap/ic_igualdad_foreground"
+                    android:text="@string/igualdad"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="monospace"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--PLAYLIST DE TODOS LOS VIDEOS: https://www.youtube.com/playlist?list=PLO4xvhqnWKL0R5ZO7L831NxKNet_aOSfz-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eventos.AddEventActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorGris"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="16dp">
+                <EditText
+                    android:id="@+id/nombreEvento"
+                    android:hint="@string/evento"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"/>
+
+                <EditText
+                    android:id="@+id/ubicacion"
+                    android:layout_below ="@+id/nombreEvento"
+                    android:hint="@string/ubicacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:id="@+id/desde"
+                    android:text="@string/desde"
+                    android:layout_below ="@+id/ubicacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"/>
+                <EditText
+                    android:id="@+id/fechaDesde"
+                    android:layout_below ="@+id/ubicacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:id="@+id/hasta"
+                    android:text="@string/hasta"
+                    android:layout_below ="@+id/fechaDesde"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"/>
+                <EditText
+                    android:id="@+id/fechaHasta"
+                    android:layout_below ="@+id/fechaDesde"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"/>
+                <EditText
+                    android:id="@+id/descripcion"
+                    android:layout_below ="@+id/fechaHasta"
+                    android:hint="@string/descripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"/>
+                <Button
+                    android:id="@+id/guardar"
+                    android:text="@string/guardar"
+                    android:layout_below ="@+id/descripcion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"/>
+                <Button
+                    android:id="@+id/cancelar"
+                    android:text="@string/cancelar"
+                    android:layout_alignBottom ="@+id/guardar"
+                    android:layout_alignEnd="@+id/descripcion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"/>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

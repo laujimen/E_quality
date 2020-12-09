@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Asignaturas.FisicaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_app"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorGris"
+            android:theme="@style/ThemeOverlay.AppCompat.Light">
+        </androidx.appcompat.widget.Toolbar>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:alpha="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/liseMeitner"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:background="@color/colorRosa"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:text="@string/liseMeitner"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:onClick="Cientificas"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/quizF1"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:onClick="QuizFisica"
+                            android:background="@color/colorBlanco"
+                            android:fontFamily="monospace"
+                            android:src="@mipmap/ic_autoevaluacion_foreground"
+                            android:textAllCaps="false" />
+
+                        <TextView
+                            android:id="@+id/scoreViewF1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="20dp"
+                            android:text="@string/puntuacion"
+                            android:background="@color/colorBlanco"
+                            android:fontFamily="monospace"
+                            android:gravity="center_vertical"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:textAllCaps="false"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LouiseDolan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:alpha="0.6"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/louiseDolan"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorVerde"
+                        android:fontFamily="monospace"
+                        android:onClick="Cientificas"
+                        android:text="@string/louiseDolan"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/quizF2"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:onClick="QuizFisica"
+                            android:background="@color/colorBlanco"
+                            android:fontFamily="monospace"
+                            android:src="@mipmap/ic_autoevaluacion_foreground"
+                            android:textAllCaps="false" />
+
+                        <TextView
+                            android:id="@+id/scoreViewF2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="20dp"
+                            android:background="@color/colorBlanco"
+                            android:fontFamily="monospace"
+                            android:gravity="center_vertical"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:text="@string/puntuacion"
+                            android:textAllCaps="false"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/RachelWebster"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:alpha="0.6"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/rachelWebster"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/colorRosa"
+                        android:fontFamily="monospace"
+                        android:text="@string/rachelWebster"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:onClick="Cientificas"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/quizF3"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:onClick="QuizFisica"
+                            android:background="@color/colorBlanco"
+                            android:fontFamily="monospace"
+                            android:src="@mipmap/ic_autoevaluacion_foreground"
+                            android:textAllCaps="false" />
+
+                        <TextView
+                            android:id="@+id/scoreViewF3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="20dp"
+                            android:background="@color/colorBlanco"
+                            android:fontFamily="monospace"
+                            android:gravity="center_vertical"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:text="@string/puntuacion"
+                            android:textAllCaps="false"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/masFisicas"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center_horizontal"
+                        android:alpha="1"
+                        android:background="@color/colorVerde"
+                        android:fontFamily="monospace"
+                        android:text="@string/lista"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:onClick="ListaMujeres" />
+
+                    <Button
+                        android:id="@+id/TotalScore"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:text="@string/puntTotal"
+                        android:textAllCaps="false"
+                        android:onClick="TotalScoreF"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
