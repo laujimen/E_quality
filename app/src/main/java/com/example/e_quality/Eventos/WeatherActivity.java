@@ -104,7 +104,7 @@ class Tiempo {
 
 public class WeatherActivity extends AppCompatActivity {
     private final int REQUEST_PERMISSION_ACCESS_FINE_LOCATION=1;
-    final String WEATHER_KEY = "ba79658e9f5f2b65d6faa2466bfda89e";
+    final String WEATHER_KEY = "PUT YOUR API KEY HERE";
     private String idioma = "";
 
 
